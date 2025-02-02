@@ -1,0 +1,26 @@
+\/* تصميم الجسم خلفية مع صورة */
+body {
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover; /* ملء الشاشة */
+    color: #ffffff; /* لون النص */
+}
+
+/* تصميم المربع الخاص بالنموذج */
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* لون شفاف */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* ظل عصري */
+}
+
+/* تصميم النصوص */
+h1, h3 {
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* ظل النص */
+}
+
+/* الأزرار */
+button {
+    font-size: 18px;
+    font-weight: bold;
+}
